@@ -1,0 +1,21 @@
+{
+  "name": "discord-level-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with a level-up system",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["discord", "bot", "levels"],
+  "author": "TheEpicBlueberry",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.0",
+    "dotenv": "^16.3.1",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
